@@ -3,5 +3,6 @@ https://www.mongodb.com/blog/post/quick-start-nodejs-mongodb-how-to-get-connecte
 https://www.freecodecamp.org/news/build-a-restful-api-using-node-express-and-mongodb/
 
 Codebase Practice Goals:
-- React (MUI & )
-- 
+- React (MUI & Jest + React-Testing-Library)
+- Node.js + Express (Jest)
+- MongoDb (Db testing)
