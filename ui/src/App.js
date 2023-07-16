@@ -1,27 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-import { Button } from '@mui/material';
+import React from 'react';
+import { Container } from '@mui/material';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Button variant="filled"> Help </Button>
-      </header>
-    </div>
-  );
+const App = () => {
+  // First container = background
+  // Second container = acutal container
+  return <>
+    <Container maxWidth={false}>
+      <Container maxWidth={false}>
+        <Grid container spacing={2}>
+            <Grid item xs={4}>
+               One Side
+            </Grid>
+            <Grid item xs={8}>
+               Second Side
+            </Grid>
+        </Grid>
+      </Container>
+    </Container>
+  </>
 }
+
 
 export default App;
